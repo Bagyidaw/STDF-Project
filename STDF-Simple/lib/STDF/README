@@ -1,0 +1,4 @@
+Simple STDF parser can read and parse STDF version 4 file.
+Currently not all STDF records are supported yet. I will implement them in time.
+The main goal of the module is to parse records in reasonable amount of time.
+So the module returns parsed records in very simple data structure. (array Reference), No objects creation, method calls overhead.
